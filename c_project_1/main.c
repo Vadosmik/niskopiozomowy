@@ -2,6 +2,37 @@
 
 char str1[] = "^^Hel1o*_W0rld$";
 
+/*
+void convertDigitToWord(char ch)
+{
+  switch (ch)
+  {
+  case 0:
+    return 'zero';
+  case 1:
+    return 'one';
+  case 2:
+    return 'two';
+  case 3:
+    return 'three';
+  case 4:
+    return 'four';
+  case 5:
+    return 'five';
+  case 6:
+    return 'six';
+  case 7:
+    return 'seven';
+  case 8:
+    return 'eight';
+  case 9:
+    return 'nine';
+  default:
+    break;
+  }
+}
+*/
+
 char processChar(char ch, int change_case)
 {
     if (change_case == 1 && (ch >= 65 && ch <= 90)) 
